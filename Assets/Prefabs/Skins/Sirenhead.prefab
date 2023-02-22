@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &947477849617679536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3061302532783794134}
+  - component: {fileID: 2125562030043718332}
+  m_Layer: 0
+  m_Name: Sirenhead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3061302532783794134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947477849617679536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1230.0515, y: 841.75476, z: -4.6133165}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2125562030043718332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947477849617679536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff82dc8d267d5e459dcd057e602cd3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: "\u0421\u0418\u0420\u0415\u041D\u041E\u0413\u041E\u041B\u041E\u0412\u042B\u0419"
+  _cost: 5000
+  _icon: {fileID: 21300000, guid: 90cf13223f18424448c6b4a93e3300c7, type: 3}
+  _bought: 0
+  _selected: 0
+  _hangman:
+  - {fileID: 21300000, guid: deff385a722f6654ba5ece60c4e1180f, type: 3}
+  - {fileID: 21300000, guid: ad13bb6be8c683f4c98c54cf912e0773, type: 3}
+  - {fileID: 21300000, guid: 67a3ac680ef2255479cfd2ed04e3f51d, type: 3}
+  - {fileID: 21300000, guid: cc4b0734f45f4384ab7650a675a4fc51, type: 3}
+  - {fileID: 21300000, guid: 5f5ca07dc69773a49a82a2c82b052732, type: 3}
+  - {fileID: 21300000, guid: 480f42511bfd7434b9939cea61aefa86, type: 3}
+  - {fileID: 21300000, guid: 5960bf3bc895c514bb4a2d3cf66c8e68, type: 3}
+  - {fileID: 21300000, guid: a9ee0d11771f1a6499c444e749c64569, type: 3}

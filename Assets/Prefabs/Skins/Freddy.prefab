@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &947477849617679536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3061302532783794134}
+  - component: {fileID: 2125562030043718332}
+  m_Layer: 0
+  m_Name: Freddy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3061302532783794134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947477849617679536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1230.0515, y: 841.75476, z: -4.6133165}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2125562030043718332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947477849617679536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff82dc8d267d5e459dcd057e602cd3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: "\u0424\u0420\u0415\u0414\u0414\u0418"
+  _cost: 5000
+  _icon: {fileID: 21300000, guid: 292aca65a1c685e43b3e042cb4704265, type: 3}
+  _bought: 0
+  _selected: 0
+  _hangman:
+  - {fileID: 21300000, guid: deff385a722f6654ba5ece60c4e1180f, type: 3}
+  - {fileID: 21300000, guid: ad13bb6be8c683f4c98c54cf912e0773, type: 3}
+  - {fileID: 21300000, guid: 5c938df3deddb864bbfed2e8cdfa92ea, type: 3}
+  - {fileID: 21300000, guid: f7034d5f2f26d584d823106a1e47a4c4, type: 3}
+  - {fileID: 21300000, guid: 7c70f7a74be1c2f46983c1e951d76f3d, type: 3}
+  - {fileID: 21300000, guid: 6eb337abe6c153142b6b564b0641f469, type: 3}
+  - {fileID: 21300000, guid: 6860ee82d43592f4fb3e96ed792bdcfe, type: 3}
+  - {fileID: 21300000, guid: 8d8c1f6a25fa4c047ad78cf254872164, type: 3}
